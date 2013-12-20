@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="utf-8">
+<title>Sample app</title>
+<link rel="stylesheet" href="index.css">
+<link rel="import" href="polymer_dialog.html">
+<script type="application/dart">export 'package:polymer/init.dart';</script>
+<script src="packages/browser/dart.js"></script>
+</head>
+<body>
+  <h1>Polymer dialog</h1>
+
+  <p>Dialog sample</p>
+
+  <div id="sample_container_id">
+    <button polymer-dialog-show>Show Dialog</button>
+    <polymer-dialog active>
+      <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+      <div>
+        <button close>Close</button>
+      </div>
+    </polymer-dialog>
+  </div>
+</body>
+</html>
